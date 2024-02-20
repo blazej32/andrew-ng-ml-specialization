@@ -162,3 +162,4 @@ filedata > 50  # boolean mask of the array
 filedata[filedata > 50]  # array of the values that are greater than 50
 # you can index with a list in numpy
 np.any(filedata > 50, axis=0)  # check if any value in each column is > 50
+(filedata > 50) & (filedata < 100)
